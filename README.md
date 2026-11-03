@@ -1,5 +1,5 @@
  # 🏦Bank Management System (Python OOP)
- 
+
  A simple bank management system using Python OOP
 ---
 ## ✨Features
@@ -16,3 +16,25 @@ bank-management-system/
 ├── main.py        # Main execution file containing the user interface, menu, and loops
 ├── account.py     # Contains the Account class and core banking logic
 └── exceptions.py  # Contains custom exception classes (e.g., InsufficientBalanceError)
+---
+## 💻 Example Usage & Execution
+```text
+=== Create your bank account ===
+First name: Asfer
+Balance: 1000
+Owner: Asfer | Balance: 1000.0
+--- Menu options: Enter 1 for Withdraw, 2 for Deposit, or 3 to Exit ---
+
+1.Withdraw  2.Deposit  3.Exit
+Choose:1
+Enter amount to withdraw: 100
+withdraw:100.0|Your balance:900.0
+
+1.Withdraw  2.Deposit  3.Exit
+Choose:2
+Enter amount to deposit:2000
+Deposit: 2000.0 |Your balance:2900.0
+
+1.Withdraw  2.Deposit  3.Exit
+Choose:3
+Good bye

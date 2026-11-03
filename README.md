@@ -16,6 +16,7 @@ bank-management-system/
 ├── main.py        # Main execution file containing the user interface, menu, and loops
 ├── account.py     # Contains the Account class and core banking logic
 └── exceptions.py  # Contains custom exception classes (e.g., InsufficientBalanceError)
+```
 ---
 ## 💻 Example Usage & Execution
 ```text

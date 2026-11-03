@@ -10,6 +10,7 @@ def Bank_account():
         balance = 0.0
     account = Account(owner_name, balance)
     print(f"Owner: {owner_name} | Balance: {balance}")
+    print("--- Menu options: Enter 1 for Withdraw, 2 for Deposit, or 3 to Exit ---")
     return account
     
 def handle_withdraw(account):
